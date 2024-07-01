@@ -1,5 +1,9 @@
-num=int(input("Enter the number"))
-fact=1
-for i in range(1,num+1):
-    fact=fact*i
-print(fact)
+#program for the factorial
+n=int(input())
+factorial=1
+if(n==0):
+    print("{0} cannot be factored".format(n))
+else:
+    for i in range(1,n+1):
+        factorial*=i
+print(factorial)
